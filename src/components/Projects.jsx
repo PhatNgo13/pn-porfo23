@@ -36,7 +36,7 @@ export default function Projects(){
 
   useEffect(() => {
     pullProjects()
-  })
+  }, [])
   
   return (
     <div className="h-screen bg-background flex justify-center overflow-hidden flex-col text-left max-w-full mx-auto items-center z-10">

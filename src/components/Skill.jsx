@@ -39,7 +39,7 @@ export default function Skill(){
 
   useEffect(() => {
     pullSkills()
-  })
+  }, [])
 
 
   return (
