@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+:root{
+  --primary-color: #1F262A;
+  --secondary-color: #5B676D;
+  --accent-color: #C8C8C8;
+  --bg-color: #EBEBEB;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base{
+  @font-face {
+    font-family: "ARAPEY";
+    src: url(../public/Arapey\ Regular.ttf);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navBtn{
+  font-size: large;
+}
+
+.navBtn:hover{
+  text-decoration: underline;
+}
+
+.contactBtn{
+  outline: none;
+  background-color: var(--bg-color);
+  border: #1F262A 1px solid;
+  border-radius: 2px;
+  padding: 10px 20px;
+  color: var(--secondary-color);
+}
+
+.contactBtn:focus{
+  border: var(--primary-color) 1px solid;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}
+
+.contactBtn:hover{
+  color: var(--primary-color);
+}
+
+.primText{
+  color: var(--primary-color);
 }

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "sanity/schemas/skill.js", "sanity/schemas/project.js", "sanity/schemas/pageInfo.js", "sanityio/schemas/post.js", "sanityio/schemas/index.js", "sanityio/schemas/category.js", "sanityio/schemas/blockContent.js", "sanityio/schemas/author.js", "src/components/Layout.jsx", "src/components/Hero.jsx", "src/components/Skill.jsx"],
   "exclude": ["node_modules"]
 }

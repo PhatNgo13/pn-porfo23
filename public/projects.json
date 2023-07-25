@@ -1,0 +1,25 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "AQI NC",
+        "image": "/aquinc.jpeg",
+        "summary": "AQI NC is a purpose-driven platform, meticulously designed to raise global awareness about the critical issue of pollution. With a seamless interface, users can effortlessly explore air quality, carbon monoxide levels, and sulfur dioxide concentrations in various cities worldwide. Our mission is to empower individuals with knowledge, enabling them to comprehend the severity of environmental challenges faced by communities globally.",
+        "linkToBuild": "https://github.com/AaronNCil/HopeHacksGroup7"
+      },
+      {
+        "id": 2,
+        "title": "Johnson's Taste",
+        "image": "/johnsonstaste.png",
+        "summary": "Driven by my passion for music and digital art, I embarked on a captivating e-commerce project that harmoniously blends these two worlds. The result is an innovative platform where I showcase my distinctive taste through digital albums, inviting music enthusiasts and art lovers alike to explore this creative symphony I've crafted. I'm thrilled to share this unique fusion with the world and offer a one-of-a-kind experience for all who visit the platform.",
+        "linkToBuild": "http://ec2-18-212-172-133.compute-1.amazonaws.com"
+      },
+      {
+        "id": 3,
+        "title": "Innovation: Bank of America's Doctor Portal",
+        "image": "/docportal.png",
+        "summary": "Our team took on the creative challenge of blending two unrelated domains - healthcare and banking. I, as a frontend developer, wanted to showcase my ability to adapt and design user interfaces for diverse industries. We created a doctor portal clone with the theme of Bank of America, reimagining the doctor-patient interaction within a financial setting. This project demonstrates my skills in crafting user-friendly interfaces while incorporating familiar elements from a well-known banking platform.",
+        "linkToBuild": "https://doc-patient-portal.vercel.app/"
+      }
+    ]
+  }

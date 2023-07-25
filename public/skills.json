@@ -1,0 +1,58 @@
+{
+    "skills": [
+      {
+        "id": 1,
+        "title": "React",
+        "image": "/reactl.png",
+        "progress": "90%"
+      },
+      {
+        "id": 2,
+        "title": "Javascript",
+        "image": "/jsl.png",
+        "progress": "90%"
+      },
+      {
+        "id": 3,
+        "title": "Node.js",
+        "image": "/nodel.png",
+        "progress": "80%"
+      },
+      {
+        "id": 4,
+        "title": "VSCode",
+        "image": "/vscl.png",
+        "progress": "80%"
+      },
+      {
+        "id": 5,
+        "title": "Next.js",
+        "image": "/nextl.png",
+        "progress": "75%"
+      },
+      {
+        "id": 7,
+        "title": "Java",
+        "image": "/javal.png",
+        "progress": "70%"
+      },
+      {
+        "id": 8,
+        "title": "Vue",
+        "image": "/vuel.png",
+        "progress": "70%"
+      },
+      {
+        "id": 6,
+        "title": "Invision",
+        "image": "/inl.png",
+        "progress": "65%"
+      },
+      {
+        "id": 7,
+        "title": "Python",
+        "image": "/pyl.png",
+        "progress": "60%"
+      }
+    ]
+  }
