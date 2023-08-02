@@ -10,6 +10,7 @@ const About = () => {
                 height={450}
                 alt='Portrait'
                 className='relative rounded-md mx-auto ml-2 object-cover'
+                loading='lazy'
                 />
     <p className='flex items-center text-gray-500 text-sm italic my-1'>photo by Collin Cassidy</p>
       </div>

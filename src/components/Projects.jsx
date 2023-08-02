@@ -18,7 +18,7 @@ export default function Projects(){
                 </div>
                 <Image
                 src={project.image}
-                loading="lazy"
+                loading='lazy'
                 width={600}
                 height={600}
                 alt="Project Landing Page"
