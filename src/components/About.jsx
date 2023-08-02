@@ -9,8 +9,7 @@ const About = () => {
                 width={450}
                 height={450}
                 alt='Portrait'
-                className='relative rounded-md mx-auto ml-2 object-cover transition-opacity opacity-0 duration-[2s]'
-                onLoadingComplete={(image) => image.classList.remove("opacity-0")}
+                className='relative rounded-md mx-auto ml-2 object-cover'
                 />
     <p className='flex items-center text-gray-500 text-sm italic my-1'>photo by Collin Cassidy</p>
       </div>
