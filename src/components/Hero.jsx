@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import {Cursor, useTypewriter} from 'react-simple-typewriter'
 import Image from 'next/image'
 import Link from 'next/link'
-import HeroImage from './home.jpg'
+import HeroImage from '../../public/home.jpg'
 
 export default function Hero() {
     const [text, count] = useTypewriter({
