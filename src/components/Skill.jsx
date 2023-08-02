@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 export default function Skill(){
   const [showSkills, setShowSkills] = useState()
-  const url = 'http://localhost:3000/skills.json'
+  const url = './skills.json'
   let displayData
 
   function pullSkills(){

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Projects(){
   const [showProjects, setShowProjects] = useState()
-  const url = 'http://localhost:3000/projects.json'
+  const url = './projects.json'
   let displayData 
 
   function pullProjects() {
