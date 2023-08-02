@@ -4,6 +4,7 @@ import {motion} from 'framer-motion'
 import {Cursor, useTypewriter} from 'react-simple-typewriter'
 import Image from 'next/image'
 import Link from 'next/link'
+import HeroImage from './home.jpg'
 
 export default function Hero() {
     const [text, count] = useTypewriter({
@@ -38,7 +39,7 @@ export default function Hero() {
         <div className='flex flex-row-reverse p-5 m-5 justify-center items-center h-screen overflow-hidden text-center'>
             <div className='flex flex-col flex-end items-center w-1/2'>
                 <Image 
-                src="/home.jpg"
+                src={HeroImage}
                 width={450}
                 height={450}
                 alt='Portrait'

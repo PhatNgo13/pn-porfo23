@@ -26,7 +26,7 @@ export default function Projects(){
                 />
                 <div className='space-y-4 text-2xl px-0 md:px-10 max-w-6 pt-5 text-center'>
                     <a className='border-b border-primary rounded-sm px-1 hover:border-accent' href={project.linkToBuild} target="_blank">{project.title}</a>
-                    <p className='text-sm font-bold lg:text-xl text-center '>{project.summary}</p>
+                    <p className='text-sm lg:text-xl text-center '>{project.summary}</p>
                 </div>
             </div>
         )

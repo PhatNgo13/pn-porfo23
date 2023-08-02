@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import AboutImage from './about.jpg'
 
 const About = () => {
   return (
     <div className="h-screen bg-background flex flex-row text-center md:text-left max-2-7xl px-10 justify-evenly mx-auto">
       <div className='w-1/2 flex justify-center items-center flex-col'>
-        <Image src="/about.jpg"
+        <Image src={AboutImage}
                 width={450}
                 height={450}
                 alt='Portrait'
