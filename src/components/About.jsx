@@ -17,7 +17,7 @@ const About = () => {
       </div> */}
       <div className='w-1/2 flex flex-col justify-center items-center p-5'>
         <h3 className='text-center pb-2 text-4xl lg:text-4xl lg:pb-5 text-bold text-primary'>About</h3>
-        <p className='text-md mt-5 lg:text-xl'>Enter the realm of digital craftsmanship! With self-taught mastery and bootcamp finesse, I excel in front-end and back-end programming. From independent wonders to collaborative ventures, my codebrush creates seamless user experiences and awe-inspiring functionalities. Seeking innovation? Let&apos;s design a masterpiece together, painting the online canvas with brilliance!</p>
+        <p className='text-md mt-5 lg:text-xl'>Welcome to the world of digital craftsmanship! I've honed my skills through self-teaching and bootcamps, becoming pretty handy with both front-end and back-end programming. Whether I'm working solo or with a team, I strive to make user experiences smooth and add unique features to each projects. Want to innovate? Let&apos;s team up and create something awesome online!</p>
       </div>
     </div>
   )
