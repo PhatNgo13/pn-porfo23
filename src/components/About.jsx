@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="h-screen bg-background flex flex-row text-center md:text-left max-2-7xl px-10 justify-evenly mx-auto">
+    <div className="h-screen bg-background text-center flex flex-row align-middle justify-center">
       {/* <div className='w-1/2 flex justify-center items-center flex-col'>
         <Image src={AboutImage}
                 width={450}
