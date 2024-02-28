@@ -31,7 +31,7 @@ const Layout = () => {
     }, []);
 
   return (
-    <div className='flex z-0'>
+    <div className='w-100 overflow-x-hidden flex z-0 '>
         <div className='hidden lg:block w-1/5 z-40 h-screen bg-background border-r border-primary'>
             <Link href="#hero" className='flex justify-center items-center m-4 border-b border-primary '>
                 <Image
