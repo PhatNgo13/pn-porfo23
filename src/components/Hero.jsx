@@ -2,16 +2,15 @@ import React from 'react'
 import DownloadResume from './DownloadResume'
 import {motion} from 'framer-motion'
 import {Cursor, useTypewriter} from 'react-simple-typewriter'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
-import HeroImage from '../../public/home.jpg'
+// import HeroImage from '../../public/home.jpg'
 
 export default function Hero() {
     const [text, count] = useTypewriter({
         words: [
-            "a full-stack developer.",
-            "a UI/UX designer.",
-            "an AI developer.",
+            "a software engineer.",
+            "a UI/UX developer.",
             "a problem solver.",
             "a team player.",
             "a StackOverflow explorer.",
