@@ -37,7 +37,7 @@ export default function Hero() {
             <DownloadResume/>
         </motion.div>
         <div className='flex flex-row-reverse p-5 m-5 justify-center items-center h-screen overflow-hidden text-center'>
-            <div className='flex flex-col flex-end items-center w-1/2'>
+            {/* <div className='flex flex-col flex-end items-center w-1/2'>
                 <Image 
                 src={HeroImage}
                 width={450}
@@ -47,8 +47,8 @@ export default function Hero() {
                 loading='lazy'
                 />
                 <p className='flex items-center text-gray-500 text-sm italic my-1'>photo by Collin Cassidy</p>
-            </div>
-            <div className='py-5 my-5 w-1/2 flex items-start flex-col'>
+            </div> */}
+            <div className='py-5 my-5s flex items-start flex-col'>
                 <h3 className='primText text-xl lg:text-2xl'>Chào,</h3>
                 <h1 className='primText text-4xl lg:text-6xl'>I&apos;m Phát Ngô,</h1>
                 <span className='primText text-xl lg:text-2xl'>
